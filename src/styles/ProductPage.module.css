@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.cards{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 1.1rem;
+}

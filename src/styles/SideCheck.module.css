@@ -1,0 +1,31 @@
+.container{
+    background-color: #173B45;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px;
+    margin: 10px;
+}
+.container span{
+    color: #F8EDED;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 500;
+}
+
+.container button{
+    border: none;
+    border-radius: 20px;
+    background-color: #FF8225;
+    color: #fff;
+    padding: 5px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.container button:hover{
+    scale: 1.1;
+}

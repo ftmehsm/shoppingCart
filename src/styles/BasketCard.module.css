@@ -1,0 +1,43 @@
+.container{
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.container img{
+    max-width: 50px;
+    margin: 10px;
+}
+.container p {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.options{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.options span{
+    width: 20px;
+    text-align: center;
+    margin: 0 10px;
+    font-weight: 700;
+}
+.options button{
+    background-color:#B43F3F ;
+    color: #fff;
+    border: none;
+    font-size: 1.7rem;
+    height: 32px;
+    width: 32px;
+    line-height: 32px;
+    padding: 2px;
+    border-radius: 8px;
+    cursor: pointer;
+}
